@@ -1,11 +1,12 @@
 
 import EditorTabBar from '../EditorTabBar'
 import './styles.css'
+import { Outlet } from "react-router-dom";
 
 function Editor() {
     return (
         <div class="editor">
-           <EditorTabBar></EditorTabBar>
+           <Outlet />
         </div>
     )
 }

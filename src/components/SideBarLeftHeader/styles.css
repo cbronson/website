@@ -1,0 +1,37 @@
+.sideBarLeftHeader {
+    display: flex;
+    flex-direction: row;
+    height: 22px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sideBarLeftHeader.level-1 {
+    padding-left: 14px;
+}
+
+.sideBarLeftHeader:hover {
+    background-color: #2a2d2e;
+}
+
+.sideBarLeftHeader-icon {
+    padding-left: 2px;
+    padding-right: 2px;
+    color: rgb(204,204,204);
+}
+.sideBarLeftHeader-title {
+    color: rgb(204,204,204);
+    line-height: 22px;
+}
+
+.sideBarLeftHeader-title.level-0 {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.sideBarLeftHeader-title.level-1 {
+    font-size: 13px;
+    padding-left: 4px;
+}
+

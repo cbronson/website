@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import ActivityBar from './components/ActivityBar';
-import SidebarLeft from './components/SidebarLeft';
+import SideBarLeft from './components/SideBarLeft';
 import Editor from './components/Editor';
 import StatusBar from './components/StatusBar';
 
@@ -9,7 +8,7 @@ function App() {
   return (
     <div class="main">
       <ActivityBar className="activityBar"></ActivityBar>
-      <SidebarLeft className="sidebarLeft"></SidebarLeft>
+      <SideBarLeft className="sidebarLeft"></SideBarLeft>
       <Editor className="editor"></Editor>
       <StatusBar></StatusBar>
     </div>
