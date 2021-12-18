@@ -1,4 +1,4 @@
-#! bin/bash
+#!/bin/bash
 cd /tmp/bundle/
 npm run build
 rm -rf /serve/cbronson/*
