@@ -1,0 +1,105 @@
+.editor-line {
+  display: block;
+  height: 18px;
+  color: #9cdcfe;
+  letter-spacing: 0;
+  font-feature-settings: "liga" 0, "calt" 0;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-weight: normal;
+  width: 100%;
+}
+
+pre {
+  counter-reset: line;
+}
+
+.editor-line:before {
+  counter-increment: line;
+  content: counter(line);
+  display: inline-block;
+  color: rgb(133, 133, 133);
+  width: 22px;
+  text-align: right;
+  height: 18px;
+  font-size: 12px;
+  font-weight: 400;
+  padding-left: 22px;
+  padding-right: 22px;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "liga" 0, "calt" 0;
+  forced-color-adjust: none;
+  vertical-align: middle;
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+.cursor-end {
+  border-right: 2px solid #979797;
+  animation: blink-caret 1s step-end infinite;
+}
+
+.bullet:before {
+    content: '- ';
+}
+
+.bullet{
+    padding-left: 44px;
+}
+
+.comment{
+    color: #6a9955;
+}
+
+.link {
+  color: #ce9178;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.string {
+  color: #ce9178;
+}
+
+.export {
+  color: #c586c0;
+}
+
+.object {
+  color: #4ec9b0;
+}
+
+.number {
+  color: #b5cea8;
+}
+
+.light-text{
+  color: #d4d4d4;
+}
+
+.indent-1 {
+  padding-left: 22px;
+}
+
+.indent-2 {
+  padding-left: 44px;
+}
+
+.indent-3 {
+  padding-left: 66px;
+}
+
+.const {
+  color: #569cd6;
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #979797;
+  }
+}

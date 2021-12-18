@@ -1,5 +1,5 @@
 .editorTab {
-    background-color: rgb(30, 30, 30);
+    background-color: rgb(45, 45, 45);
     height: 100%;
     max-width: 120px;
     min-width: fit-content;
@@ -8,11 +8,15 @@
     align-items: center;
     padding-left: 10px;
     cursor: pointer;
+    color: rgb(255,255,255);
+}
+
+.editorTab-active {
+    background-color: rgb(30, 30, 30);
 }
 
 .editorTab-title {
     font-size: 13px;
-    color: rgb(255,255,255);
     padding-left: 6px;
 }
 

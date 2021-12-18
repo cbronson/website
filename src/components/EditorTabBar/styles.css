@@ -1,4 +1,5 @@
 .editorTabBar {
- background-color: rgb(37, 37, 38);   
- height: 35px;
+  background-color: rgb(37, 37, 38);
+  height: 35px;
+  display: flex;
 }

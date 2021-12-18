@@ -1,8 +1,23 @@
-.main {
-  display: grid;
-  grid-template-columns: 48px 1fr 4fr;
-  grid-template-rows: 1fr 22px;
+.body {
   height: 100vh;
   width: 100vw;
   color: rgb(187, 187, 187);
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 48px auto;
+  width: 100%;
+  height: calc(100vh - 20px);
+}
+
+.bottom-container {
+  height: 22px;
+  width: 100vw;
+}
+
+@media (min-width: 1024px) {
+  .main-container {
+    grid-template-columns: 48px 200px auto;
+  }
 }

@@ -4,8 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import About from './routes/about'
 import Home from './routes/home';
+import Links from './routes/links';
+import Skills from './routes/skills';
+import Resume from './routes/resume';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -14,7 +16,9 @@ ReactDOM.render(
       <Route path="/" element={<App />}>
 
       <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
+      <Route path="/links" element={<Links />} />
+      <Route path="/skills" element={<Skills />} />
+      <Route path="/resume" element={<Resume />} />
       </Route>
     </Routes>
     </React.StrictMode>

@@ -1,5 +1,4 @@
 
-import EditorTabBar from '../EditorTabBar'
 import './styles.css'
 import { Outlet } from "react-router-dom";
 
