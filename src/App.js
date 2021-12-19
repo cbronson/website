@@ -1,6 +1,6 @@
 import './App.css';
 import ActivityBar from './components/ActivityBar';
-import SideBarLeft from './components/SideBarLeft';
+import SideBarLeft from './components/SideBarLeft/SideBarLeft';
 import Editor from './components/Editor';
 import StatusBar from './components/StatusBar';
 
