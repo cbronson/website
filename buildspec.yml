@@ -9,6 +9,8 @@ phases:
     commands:
       - ls -al
       - pwd
+      - ls -al ./src
+      - ls -al ./src/components
       - npm run build
 artifacts:
   files:
