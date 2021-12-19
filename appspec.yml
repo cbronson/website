@@ -2,13 +2,4 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /tmp/bundle
-hooks:
-  BeforeInstall:
-    - location: scripts/prepare.sh
-      timeout: 300
-      runas: root
-  AfterInstall:
-    - location: scripts/build.sh
-      timeout: 300
-      runas: root
+    destination: /srv/cbronson.com
