@@ -1,8 +1,13 @@
 version: 0.2
 phases:
+  prebuild:
+    commands:
+      - echo "installing dependencies..."
+      - npm install
   build:
-    - npm install
-    - npm run build
+    commands:
+      - echo "building..."
+      - npm run build
 artifacts:
   files:
     - build/
