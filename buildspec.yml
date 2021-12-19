@@ -1,15 +1,11 @@
 version: 0.2
 phases:
-  pre_build:
+  install:
     runtime-versions:
         nodejs: 14.16
     commands:
       - node -v
       - npm install
-      - ls -al
-      - pwd
-  build:
-    commands:
       - ls -al
       - pwd
       - ls -al ./src
