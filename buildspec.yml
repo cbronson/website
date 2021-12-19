@@ -2,12 +2,14 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - echo "installing dependencies..."
       - npm install
+      - ls -al
+      - pwd
   build:
     commands:
-      - echo "building..."
+      - ls -al
+      - pwd
       - npm run build
 artifacts:
   files:
-    - build/
+    - build/**/*
