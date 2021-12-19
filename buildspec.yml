@@ -4,6 +4,7 @@ phases:
     runtime-versions:
         nodejs: 14
     commands:
+      - rm -f package-lock.json
       - node -v
       - npm install
       - ls -al
