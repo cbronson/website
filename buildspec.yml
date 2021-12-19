@@ -1,6 +1,8 @@
 version: 0.2
 phases:
   pre_build:
+    runtime-versions:
+        nodejs: 14.16
     commands:
       - npm install
       - ls -al
