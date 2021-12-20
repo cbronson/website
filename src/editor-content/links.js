@@ -11,6 +11,12 @@ export default function EditorContentLinks() {
         },
         { 
             c: '<span class="string">"</span>'
+                + '<a class="link" href="https://mybrokenphone.com" target="_blank" rel="noreferrer">mbp.repair</a>'
+                + '<span class="string">"</span><span class="light-text">,</span>', 
+            class: 'indent-1' 
+        },
+        { 
+            c: '<span class="string">"</span>'
                 + '<a class="link" href="https://www.linkedin.com/in/connor-bronson" target="_blank" rel="noreferrer">LinkedIn</a>'
                 + '<span class="string">"</span><span class="light-text">,</span>', 
             class: 'indent-1' 
