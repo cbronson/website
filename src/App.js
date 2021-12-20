@@ -1,8 +1,8 @@
 import './App.css';
-import ActivityBar from './components/ActivityBar';
-import SideBarLeft from './components/SideBarLeft';
-import Editor from './components/Editor';
-import StatusBar from './components/StatusBar';
+import ActivityBar from 'components/ActivityBar';
+import SideBarLeft from 'components/SideBarLeft';
+import Editor from 'components/Editor';
+import StatusBar from 'components/StatusBar';
 
 function App() {
   return (

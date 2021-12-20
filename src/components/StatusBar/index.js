@@ -1,5 +1,5 @@
 import './style.css'
-import StatusBarFirstVisibleItem from '../StatusBarFirstVisibleItem'
+import StatusBarFirstVisibleItem from 'components/StatusBarFirstVisibleItem'
 
 function StatusBar() {
     return (

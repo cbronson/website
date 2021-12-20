@@ -1,4 +1,4 @@
-import EditorTab from '../EditorTab'
+import EditorTab from 'components/EditorTab'
 import './styles.css'
 import homeIcon from '@iconify-icons/codicon/home';
 

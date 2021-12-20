@@ -1,12 +1,12 @@
-import SidebarLeftHeader from '../SideBarLeftHeader'
-import SideBarLeftTitle from '../SideBarLeftTitle'
+import SidebarLeftHeader from 'components/SideBarLeftHeader'
+import SideBarLeftTitle from 'components/SideBarLeftTitle'
 import './styles.css'
 import chevronDownIcon from '@iconify-icons/codicon/chevron-down';
 import homeIcon from '@iconify-icons/codicon/home';
 import typescriptIcon from '@iconify/icons-simple-icons/typescript';
 import javascriptIcon from '@iconify/icons-simple-icons/javascript';
 import htmlIcon from '@iconify/icons-simple-icons/html5';
-import SideBarNavLink from '../SideBarNavLink';
+import SideBarNavLink from 'components/SideBarNavLink';
 import { useMediaQuery } from 'react-responsive'
 
 function SideBarLeft() {
