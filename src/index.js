@@ -8,6 +8,7 @@ import Home from './routes/home';
 import Links from './routes/links';
 import Skills from './routes/skills';
 import Resume from './routes/resume';
+import NotFound from './routes/not-found';
 
 ReactDOM.render(
   <BrowserRouter>
@@ -19,6 +20,7 @@ ReactDOM.render(
       <Route path="/links" element={<Links />} />
       <Route path="/skills" element={<Skills />} />
       <Route path="/resume" element={<Resume />} />
+      <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
     </React.StrictMode>

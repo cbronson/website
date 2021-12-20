@@ -93,6 +93,10 @@ pre {
   color: #569cd6;
 }
 
+.error {
+  text-decoration: underline wavy #ff0000;
+}
+
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from,
