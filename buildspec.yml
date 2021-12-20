@@ -6,11 +6,10 @@ phases:
     commands:
       - node -v
       - npm install
-      - ls -al
-      - pwd
-      - ls -al ./src
-      - ls -al ./src/components
+  build:
+    commands:
       - npm run build
 artifacts:
+  base-directory: build
   files:
-    - build/**/*
+    - /**/*

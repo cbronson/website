@@ -9,7 +9,7 @@ import htmlIcon from '@iconify/icons-simple-icons/html5';
 import SideBarNavLink from 'components/SideBarNavLink';
 import { useMediaQuery } from 'react-responsive'
 
-function SideBarLeft() {
+expoirt default function LeftSideBar() {
     const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1023px)' })
     return isTabletOrMobile 
         ? null
@@ -24,5 +24,3 @@ function SideBarLeft() {
             </div>
         )
 }
-
-export default SideBarLeft
