@@ -39,7 +39,6 @@ export default function EditorContent(props) {
         const r = RegExp(/\[([^\[\]]*)\]\((.*?)\)/, "g");
         const x = r.exec(line);
         let l;
-        console.log("x", line, x);
         if (x) {
           let indentationString = "";
           for (var i = 0; i < line.length; i++) {
