@@ -1,18 +1,25 @@
+pre {
+  white-space: normal;
+  margin-top: calc(35px + 1em);
+  padding-right: 12px;
+}
+
 .editor-line {
   display: block;
-  height: 18px;
   color: #9cdcfe;
-  letter-spacing: 0;
-  font-feature-settings: "liga" 0, "calt" 0;
   font-size: 12px;
   line-height: 18px;
   font-family: Menlo, Monaco, "Courier New", monospace;
   font-weight: normal;
-  width: 100%;
+  padding-left: 73px;
+  text-indent: -73px;
 }
 
-pre {
+.editorContent {
   counter-reset: line;
+  display: block;
+  font-family: monospace;
+  margin: 1em 0px;
 }
 
 .editor-line:before {
@@ -25,13 +32,16 @@ pre {
   height: 18px;
   font-size: 12px;
   font-weight: 400;
-  padding-left: 22px;
+  padding-left: 8px;
   padding-right: 22px;
-  font-variant-numeric: tabular-nums;
-  font-feature-settings: "liga" 0, "calt" 0;
-  forced-color-adjust: none;
   vertical-align: middle;
   font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+@media (min-width: 768px) {
+  .editor-line:before {
+    padding-left: 22px;
+  }
 }
 
 .cursor-end {
@@ -39,62 +49,8 @@ pre {
   animation: blink-caret 1s step-end infinite;
 }
 
-.bullet:before {
-    content: '- ';
-}
-
-.bullet{
-    padding-left: 44px;
-}
-
-.comment{
-    color: #6a9955;
-}
-
 .link {
-  color: #ce9178;
   text-decoration: underline;
-  text-underline-position: under;
-}
-
-.string {
-  color: #ce9178;
-}
-
-.export {
-  color: #c586c0;
-}
-
-.object {
-  color: #4ec9b0;
-}
-
-.number {
-  color: #b5cea8;
-}
-
-.light-text{
-  color: #d4d4d4;
-}
-
-.indent-1 {
-  padding-left: 22px;
-}
-
-.indent-2 {
-  padding-left: 44px;
-}
-
-.indent-3 {
-  padding-left: 66px;
-}
-
-.const {
-  color: #569cd6;
-}
-
-.error {
-  text-decoration: underline wavy #ff0000;
 }
 
 /* The typewriter cursor effect */
