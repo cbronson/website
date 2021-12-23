@@ -10,7 +10,7 @@ export const resume = [
     company: "GreenLight IoT, Inc.",
     dates: "March 2020 - Current",
     responsibilities: [
-      "Work within a team to design and develop the company's SaaS platform Work within a team to design and develop the company's SaaS platform",
+      "Work within a team to design and develop the company's SaaS platform.",
       "Modern Angular frontend development using industry accepted best practices.",
       "Backend microservice development using NodeJS, NestJS, and Fastify.",
       "MongoDB database design, deployment, and maintenance.",
