@@ -6,9 +6,23 @@ export const download_links = [
 
 export const resume = [
   {
+    title: "Senior Fullstack Software Engineer - Payments",
+    company: "LTK (rewardStyle Inc.)",
+    dates: "February 2022 - Present",
+    responsibilities: [
+      "Architect scalable and maintainable web application served to users across the globe.", 
+      "Design and develop flexible payments systems for US and international users.", 
+      "Develop fullstack web applications with Golang backend and Vue frontend.", 
+      "Lead international engineering resources.",
+      "Improve overall technical maturity of engineering department.",
+      "Provide guidance and mentorship for junior engineers.",
+      "Internationalization and localization of product space.",
+    ],
+  },
+  {
     title: "Software Engineer",
     company: "GreenLight IoT, Inc.",
-    dates: "March 2020 - Current",
+    dates: "March 2020 - February 2022",
     responsibilities: [
       "Work within a team to design and develop the company's SaaS platform.",
       "Modern Angular frontend development using industry accepted best practices.",
