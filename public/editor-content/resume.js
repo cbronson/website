@@ -1,7 +1,7 @@
 // resume
 
 export const download_links = [
-  '["Download My Resume"](https://cbronson-public.s3.amazonaws.com/Connor+Bronson+Resume.pdf)'
+  '["Download My Resume"](https://cbronson.com/files/resume.pdf)'
 ]
 
 export const resume = [
