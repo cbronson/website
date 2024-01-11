@@ -2,6 +2,7 @@
   "name": "cbronson",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://cbronson.github.io/website/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
@@ -20,6 +21,8 @@
     "web-vitals": "^2.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -46,6 +49,7 @@
   "devDependencies": {
     "@iconify-icons/codicon": "^1.1.26",
     "@iconify/icons-simple-icons": "^1.1.55",
-    "@iconify/react": "^3.1.0"
+    "@iconify/react": "^3.1.0",
+    "gh-pages": "^6.1.1"
   }
 }
